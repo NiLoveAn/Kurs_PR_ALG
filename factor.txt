@@ -1,0 +1,16 @@
+int a = 10;
+int n = 3;
+int res = 1;
+
+while n != 1 begin
+
+    if (n % 2) != 1 begin
+        res = res * a * a;
+    end;
+
+    if (n % 2) != 0 begin
+        res = res * a;
+    end;
+
+end;
+print(res);
